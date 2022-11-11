@@ -1,4 +1,4 @@
-FROM shoothzj/base
+FROM shoothzj/base:20.04
 
 COPY dist /opt/mysql-dashboard
 

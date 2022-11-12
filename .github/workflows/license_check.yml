@@ -20,6 +20,9 @@
 name: "license check"
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
